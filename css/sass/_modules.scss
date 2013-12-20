@@ -1,0 +1,31 @@
+/*Speakers -----------------------------------------------------
+*/
+
+.speakers {
+	.artist {
+		@include clearfix;
+
+		h3 {
+			padding: 10px 0 5px 0;
+			border-bottom: 1px dotted $lightgray;
+			margin: 0 0 5px 0;
+		}
+	}
+}
+
+.socialmediaicons {
+	.title {
+		float: left;
+	}
+
+	ul {
+		float: left;
+		li {
+			display: inline-block;
+			margin: 0 0 0 5px;
+		}
+		img {
+			@include border-radius(50%);
+		}
+	}
+}

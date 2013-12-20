@@ -1,0 +1,148 @@
+/*Susy setup ----------------------------------------------- */
+$total-columns:		12;
+$column-width:		4em;
+$gutter-width:		1em;
+$grid-padding:		$gutter-width;
+
+@include border-box-sizing;
+
+$small: 			30em;
+$medium: 			47em;
+$large: 			75em;
+
+
+/*Content ----------------------------------------------- */
+.layout {
+	@include container;
+	padding:  0 3%;
+
+	.primary {
+		margin-top: 0.2em;
+		@include at-breakpoint($medium) {
+			@include span-columns(8,12);
+		}
+	}
+}
+
+
+/*header ----------------------------------------------- */
+
+header {
+	img {
+		width: 80%;
+		margin: 5%;
+		max-width: 500px;
+		margin-bottom: 0;
+	}
+}
+
+/*Navigation ----------------------------------------------- */
+.navigation {
+	background: lighten($darkblue, 15);
+	ul.nav {
+		@include at-breakpoint($small) {
+			@include horizontal-list;
+		}
+
+		li {
+			a {
+				@include single-transition(all, 400ms, ease-out);
+				display: block;
+				text-decoration: none;
+				padding: 5px 10px;
+				color: $paleryellow;
+
+				&:hover{
+					background: $orange;
+					a {
+						color: lighten($yellow, 30);
+					}
+				}	
+			}
+		}
+	}
+}
+
+/*footer ----------------------------------------------- */
+.speakerslist {
+	img {
+		@include border-radius;
+		width: 120px;
+		float: left;
+		margin: 0 10px 10px 0;
+	}
+
+
+	@include at-breakpoint($medium) {
+		text-align: center;
+		@include background(linear-gradient(top, lighten($darkblue, 20), $darkerblue));
+		color: rgba($paleryellow, 0.8);
+		overflow: hidden;
+		padding-bottom: 10px;
+		#{headings()} {
+			color: darken($paleyellow, 15);
+			text-shadow: none;
+			border-bottom: none !important;
+		}
+
+		h1 {
+			font-size: 2.6rem;
+			line-height: 1em;
+			@include at-breakpoint($large) {
+				font-size: 4rem;
+				line-height: 1em;
+			}
+
+		}
+
+		h3 {
+			color: darken($paleyellow, 30);
+			line-height: 1em;
+		}
+
+		img.speaker {
+			float: none;
+			width:  40%;
+			max-width: 170px;
+			margin: 0 auto;
+			@include border-radius(50%);
+		}
+		
+		p:nth-of-type(2) {
+			font-weight: 200 !important;
+			text-align: left;
+			font-size: 0.8em;
+			line-height: 0;
+			@include single-transition(all, 0.3s, ease-out);
+			opacity: 0;
+		}
+
+		&:hover{
+			p:nth-of-type(2){
+				line-height: 1.5em;
+				opacity: 1;
+			}
+		}
+
+		.artist {
+			@include span-columns(4,12);
+		}
+
+		.artist:nth-of-type(3) {
+			@include span-columns(4 omega, 12);
+		}
+	}
+
+
+
+}
+
+
+
+/*footer ----------------------------------------------- */
+footer {
+	color: $paleryellow;
+	background: lighten($darkblue, 3);
+	margin: 20px 0 0 0;
+	padding: 20px 0 100px 0;
+}
