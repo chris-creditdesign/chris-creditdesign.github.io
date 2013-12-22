@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Unusual uses for D3
+description: A description of your post
+tags: [multiple,tags]
+published: false
 ---
 
 #**{{ page.title }}** 

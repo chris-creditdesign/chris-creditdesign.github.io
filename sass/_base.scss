@@ -1,0 +1,102 @@
+body {
+	font-family: $font-primary;
+	color: $text_colour;
+	background-color: $background-colour;
+	font-size: 1.1rem;
+	line-height: 150%;
+	padding: 30px 3% 5% 3%;
+
+	// body acts as a container for the susy grid.
+	@include container;
+}
+
+header, section {
+	margin: 0 0 20px 0;
+}
+
+#{headings()} {
+	color: $header_colour;
+	font-size: 1.5rem;
+	line-height: 160%;
+	margin: 0;
+}
+
+header {
+	h1  {
+		font-size: 4.5rem;
+		line-height: 80%;
+		text-transform: uppercase;
+		font-weight: bolder;
+		a {
+			// color: $header_colour;
+			text-decoration: none;
+			&:hover {
+				color: darken($header_colour, 20);
+				text-decoration: none;
+			}
+		}
+	}
+	p {
+		margin: 5px 0 0 0;
+	}
+}
+
+
+a {
+	@include single-transition(all, 300ms, ease-out);
+	text-decoration: none;
+	color: $link_colour ;
+	&:hover{
+		color: darken($link_colour, 20);
+		text-decoration: underline;
+	};
+}
+
+article {
+	p, img, iframe, pre {
+		width: 100%;
+	}
+
+	/* margin bottom */
+
+	h1,h2,h3 {
+		margin-bottom: 10px;
+	}
+
+	p, iframe {
+		margin-bottom: 20px;
+	}
+
+	ol, ul {
+		li {
+			margin-bottom: 10px;
+			color: $tag_colour;
+			a {	
+				font-size: 2rem;
+			}
+		}
+	}
+}
+
+
+nav {
+	ul {
+		li {
+			@include single-transition(all, 300ms, ease-out);
+			padding: 8px;
+			margin: 0 5px 0 0;
+			@include border-radius(5px);
+			cursor: pointer;
+			background-color: lighten($link-colour, 10);
+			&:hover {
+				background-color: $link_colour;
+			}
+		}
+		a {
+			color: $background-colour;
+			&:hover {
+				color: $background-colour;
+			}
+		}
+	}
+}

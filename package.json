@@ -1,5 +1,5 @@
 {
-  "name": "creditdesign-tumblr",
+  "name": "creditdesign",
   "version": "0.1.0",
   "author": "Chris Ryan",
   "private": true,
@@ -12,7 +12,6 @@
     "grunt-cssc": "*",
     "matchdep": "*",
     "grunt-contrib-concat": "~0.3.0",
-    "grunt-browser-sync": "~0.2.6",
     "grunt-contrib-uglify": "~0.2.7"
   }
 }

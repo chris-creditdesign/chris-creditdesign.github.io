@@ -1,14 +1,46 @@
 ---
 layout: default
-title: Jekyll Boilerplate
+title: CREDIT DESIGN
 ---
 
+<article>
+	<p>Hi! I’m Chris Ryan. I like drawing robots and making things move on the internet. You can also find me on twitter <a href="https://twitter.com/creditdesign" target="_blank">@creditdesign</a>, <a href="http://creditdesign.tumblr.com/" target="_blank">tumblr</a> and <a href="http://codepen.io/chris-creditdesign" target="_blank">codepen</a>.</p>
 
-<h1>{{ page.title }}</h1>
+	<h2>Recent projects</h2>
 
-{% for post in site.posts %}
+	<ol>
+		<li>
+			<a href="http://www.nature.com/nature/journal/v501/n7468_supp/interactive3/drought-map.html" target="_blank">Thirty-five years of dry spells</a><br />
+			Interactive world map for Nature Comment showing precipitation anomalies over 35 years
+		</li>
+		<li>
+			<a href="http://www.natureasia.com/en/publishing-index/global/infographic" target="_blank">Nature Publishing Index</a><br />
+			Interactive bar chart to compare the top 30 nations in the Nature Publishing Index
+		</li>
+		<li>
+			<a href="http://www.nature.com/news/bibliometrics-global-gender-disparities-in-science-1.14321#/gender" target="_blank">Gender, output, collaboration and citation</a><br />
+			Interactive bar chart to compare male and female scientific authors
+		</li>
+		<li>
+			<a href="http://youtu.be/6hBSUbiqsI0" target="_blank">25 years of the IPCC - Nature Video</a><br />
+			Animated graphic to introduce the IPCC's 2013 report
+		</li>
+		<li>
+			<a href="http://www.nature.com/news/365-days-nature-s-2013-quiz-1.14330" target="_blank">365 days: Nature's 2013 quiz</a><br />
+			Nature's end of year quiz
+		</li>
+	</ol>
 
-    {{ post.date | date: "%B %e, %Y" }}
-    <a href="{{ post.url }}">{{ post.title }}</a>
+	<h2>Blog posts</h2>
 
-{% endfor %}
+	<ol>
+	{% for post in site.posts %}
+		
+		<li>
+	    <a href="{{ post.url }}">{{ post.title }}</a><br />
+	    {{ post.date | date: "%B %e, %Y" }}
+		</li>
+
+	{% endfor %}
+	</ol>
+</article>

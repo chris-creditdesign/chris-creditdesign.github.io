@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Canvas vs SVG at 1400 datapoints
+description: A description of your post
+tags: [multiple,tags]
+published: false
 ---
 
 #**{{ page.title }}** 
@@ -56,11 +59,11 @@ My plan was to plot each point on a grid and give them a colour that corresponds
 
 For the sake of this demo I've loaded all the data into on big array of objects each with a long and lat property.
 
-var dataset = [	
-	{ long:289.5, lat:-54.5},
-        {etc...},
-        {etc..}
-];
+	var dataset = [	
+		{ long:289.5, lat:-54.5},
+		{etc...},
+		{etc..}
+	];
 
 I've left the value part out here for simplicity.
 
@@ -68,55 +71,54 @@ My first look at the map didn't look quite like I had expected. The longitude va
 
 I had to do a little doctoring to make a more conventional map. First off I'll shift the longitude values over so we get Alaska in the left hand corner.
 
-for (var i = 0; i < dataset.length; i++) {
+	for (var i = 0; i < dataset.length; i++) {
   
-  if (dataset[i].long > 195 ) {
-	  dataset[i].long -= 195;
-  } else {
-  	dataset[i].long += 165;
-  }
-
-};
+		if (dataset[i].long > 195 ) {
+			dataset[i].long -= 195;
+		} else {
+			dataset[i].long += 165;
+		}
+	};
 
 I can easily flip the map upside down when I make my scales. So best get busy.
 
 Firstly I'll grab the min an max values for both the longitude and latitude.
 
-var maxLong = d3.max(dataset, function (d) {
-	return d.long;
-});
-var minLong = d3.min(dataset, function (d) {
-	return d.long;
-});
-var maxLat = d3.max(dataset, function (d) {
-	return d.lat;
-});
-var minLat = d3.min(dataset, function (d) {
-	return d.lat
-});
+	var maxLong = d3.max(dataset, function (d) {
+		return d.long;
+	});
+	var minLong = d3.min(dataset, function (d) {
+		return d.long;
+	});
+	var maxLat = d3.max(dataset, function (d) {
+		return d.lat;
+	});
+	var minLat = d3.min(dataset, function (d) {
+		return d.lat
+	});
 
 And use them build the some d3 linear scales
 
-/* Define X scale */
-var xScale = d3.scale.linear()
-	.domain([ minLong, maxLong ])
-	.range([0,width]);
-/* Define Y scale */
-var yScale = d3.scale.linear()
-	.domain([minLat,maxLat])
-	.range([height, 0]);
+	/* Define X scale */
+	var xScale = d3.scale.linear()
+		.domain([ minLong, maxLong ])
+		.range([0,width]);
+	/* Define Y scale */
+	var yScale = d3.scale.linear()
+		.domain([minLat,maxLat])
+		.range([height, 0]);
 
 These are as you'd expect except for the fact the yScale range goes from height to 0 to flip the map upside down.
 
 Next I'll create some variables for the width and height of each rectangle by dividing the width by the combined total longitude and the height by the total latitude. This should effectively render each data point as a rectangle on the grid. 
 
-/* Define the rect height and width */
-var rectWidth = Math.round(width / (maxLong - minLong)) + 1;
-var rectHeight = Math.round(height / -(minLat - maxLat)) + 1;
+	/* Define the rect height and width */
+	var rectWidth = Math.round(width / (maxLong - minLong)) + 1;
+	var rectHeight = Math.round(height / -(minLat - maxLat)) + 1;
 
 Putting the SVG together is pretty a pretty standard d3 job
 
-/*	Create SVG element */
+	/*	Create SVG element */
 var svg = d3.select(".map")
 		.append("svg")
 		.attr("width", width)
@@ -142,7 +144,7 @@ var svg = d3.select(".map")
 			  .delay(function (d,i) {
 				  return i*1
 			  })
-			  .style("opacity", 1);
+			  .style("opacity", 1);</code></pre>
   
 
 
