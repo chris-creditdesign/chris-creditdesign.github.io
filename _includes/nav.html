@@ -1,9 +1,22 @@
-<nav class="nav-primary" role="navigation" >
-    <ul>
-        {% for p in site.pages %}
-        <li>
-        	<a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">{{ p.title }}</a>
-        </li>
-        {% endfor %}
+<nav id="pagination" role="navigation">
+	<ul>
+
+		{% if paginator.total_pages > 1 %}
+			<ul>
+				{% if paginator.previous_page %}
+					<li>
+					<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Prev</a>
+				</li>
+			{% endif %}
+
+			{% if paginator.next_page %}
+				<li>
+					<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a>
+				</li>
+			{% endif %}
+			</ul>
+
+		{% endif %}
+
     </ul>
 </nav>

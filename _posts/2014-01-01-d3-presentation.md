@@ -2,17 +2,13 @@
 layout: post
 title: Unusual uses for D3
 description: A description of your post
-tags: [multiple,tags]
-published: false
+tags: [dancing, truth, tags]
+published: true
 ---
 
-#**{{ page.title }}** 
-
-Hello. My name is Chris and I'm an Art Editor in the Nature art dept.
-
-I can be reached at c.ryan@nature.com on twitter @creditdesign. I'll keep twitter open whilst I'm talking so if any questions pop into your head feel free to send them my way and I'll try to answer them at the end.
+Hello. My name is Chris and I'm an Art Editor in the Nature art dept. I can be reached at c.ryan@nature.com on twitter @creditdesign. I'll keep twitter open whilst I'm talking so if any questions pop into your head feel free to send them my way and I'll try to answer them at the end.
 All of the examples are on my codepen page if you'd like to dig into the code.
-creditdesign/codepen...    
+creditdesign/codepen...<!--more--> 
 
 So... how come I'm using D3?
 
