@@ -18,17 +18,18 @@ header, section {
 	color: $header_colour;
 	font-size: 1.5rem;
 	line-height: 160%;
-	margin: 0;
+	// margin: 0;
 }
 
 header {
+	text-align: center;
 	h1  {
-		font-size: 4.5rem;
+		font-size: 3rem;
 		line-height: 80%;
 		text-transform: uppercase;
 		font-weight: bolder;
+		color: $link_colour;
 		a {
-			// color: $header_colour;
 			text-decoration: none;
 			&:hover {
 				color: darken($header_colour, 20);
@@ -36,8 +37,10 @@ header {
 			}
 		}
 	}
-	p {
-		margin: 5px 0 0 0;
+	a {
+		margin: 5px 10px 0;
+		color: $header_colour;
+		text-align: center;
 	}
 }
 
@@ -53,11 +56,13 @@ a {
 }
 
 article {
-	p, img, iframe, pre {
+	p, iframe, pre {
 		width: 100%;
 	}
 
-	/* margin bottom */
+	img {
+		max-width: 100%;
+	}
 
 	h1,h2,h3 {
 		margin-bottom: 10px;
@@ -69,12 +74,24 @@ article {
 
 	ol, ul {
 		li {
-			margin-bottom: 10px;
-			color: $tag_colour;
 			a {	
 				font-size: 2rem;
 			}
+			small {
+				color: $tag_colour;
+				font-size: 0.9rem;
+			}
 		}
+	}
+
+	.img-left {
+		float: left;
+		margin-right: 30px;
+	}
+
+	.img-right {
+		float: right;
+		margin-left: 30px;
 	}
 }
 
@@ -82,12 +99,13 @@ article {
 nav {
 	ul {
 		li {
-			@include single-transition(all, 300ms, ease-out);
+			@include single-transition(all, 100ms, ease-out);
+			@include border-radius(5px);
+			background-color: lighten($link-colour, 10);
 			padding: 8px;
 			margin: 0 5px 0 0;
-			@include border-radius(5px);
 			cursor: pointer;
-			background-color: lighten($link-colour, 10);
+			display: inline;
 			&:hover {
 				background-color: $link_colour;
 			}

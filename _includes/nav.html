@@ -1,22 +1,18 @@
-<nav id="pagination" role="navigation">
-	<ul>
-
-		{% if paginator.total_pages > 1 %}
-			<ul>
-				{% if paginator.previous_page %}
-					<li>
-					<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Prev</a>
-				</li>
-			{% endif %}
-
-			{% if paginator.next_page %}
+<nav role="navigation">
+	{% if paginator.total_pages > 1 %}
+		<ul>
+			{% if paginator.previous_page %}
 				<li>
-					<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a>
-				</li>
-			{% endif %}
-			</ul>
-
+				<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Prev</a>
+			</li>
 		{% endif %}
 
-    </ul>
+		{% if paginator.next_page %}
+			<li>
+				<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a>
+			</li>
+		{% endif %}
+		</ul>
+
+	{% endif %}
 </nav>

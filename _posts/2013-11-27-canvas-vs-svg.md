@@ -3,7 +3,7 @@ layout: post
 title: Canvas vs SVG at 1400 datapoints
 description: A description of your post
 tags: [multiple,tags]
-published: true
+published: false
 ---
 
 Whilst doing some prep work for a potential interactive map using the d3.js library I found myself accidently pushing the limits of what an svg can comfortably do and decided to dive headlong into canvas as an alternative.<!--more-->
