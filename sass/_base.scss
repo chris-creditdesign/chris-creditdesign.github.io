@@ -68,6 +68,10 @@ article {
 		margin-bottom: 10px;
 	}
 
+	h2 {
+		color: darken($header_colour, 20);
+	}
+
 	p, iframe {
 		margin-bottom: 20px;
 	}

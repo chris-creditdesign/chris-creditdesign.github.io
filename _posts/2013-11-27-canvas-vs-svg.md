@@ -6,7 +6,7 @@ tags: [multiple,tags]
 published: false
 ---
 
-Whilst doing some prep work for a potential interactive map using the d3.js library I found myself accidently pushing the limits of what an svg can comfortably do and decided to dive headlong into canvas as an alternative.<!--more-->
+Whilst doing some prep work for a potential interactive map using the d3.js library I found myself accidentally pushing the limits of what an svg can comfortably do and decided to dive headlong into canvas as an alternative.<!--more-->
 
 /* Below I've put together a quick and dirty demo to compare the speed at which a map can be built using svg vs canvas using exactly the same data set. Click the buttons and have a play.*/
 
