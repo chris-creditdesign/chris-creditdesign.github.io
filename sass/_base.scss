@@ -83,6 +83,7 @@ article {
 		font-family: $font-primary;
 		font-style: normal;
 		font-weight: 700;
+		line-height: 1.3em;
 		margin-top: 0;
 		color: darken($header_colour, 20);
 	}
@@ -106,6 +107,10 @@ article {
 
 	p, iframe {
 		margin-bottom: 20px;
+	}
+
+	iframe {
+		margin-top: 5px;
 	}
 	
 	ol, ul {

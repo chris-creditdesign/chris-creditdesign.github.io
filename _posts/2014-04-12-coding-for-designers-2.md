@@ -2,7 +2,7 @@
 layout: post
 title: Coding for designers part 2
 description: A description of your post
-pen: <p>Let’s learn how to talk to computers and learn about the three headed beast that runs the internet.</p>
+pen: <p>Let’s learn how to talk to computers and about the three headed beast that runs the internet.</p>
 tags: [multiple,tags]
 published: true
 ---
