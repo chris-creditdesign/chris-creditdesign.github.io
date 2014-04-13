@@ -1,10 +1,10 @@
 @import "compass";
 @import "compass/reset";
-@import "susy";
+// @import "susy";
 
 @import "variables";
+@import "layout";
 @import "mixins";
 @import "base";
-@import "layout";
 @import "modules";
 @import "pretty";
