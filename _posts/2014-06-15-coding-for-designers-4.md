@@ -35,7 +35,7 @@ The fonts are listed in order of order of preference. I've chosen the font Gill 
 <em>"Please use Gill Sans. If Gill Sans is not available use Helvetica. If Helvetica is not available use Arial. If Arial is not available use sans-serif. If sans-serif is not available use whatever you can."</em>
 
 ### Cascading
-In the above example I chose to apply the <strong>font-family</strong> property to the <strong>body</strong> tag. You won't actually see the <strong>body</strong> tag on screen but Codepen kindly sets us up a standard HTML page for us that looks something like this:
+In the above example I chose to apply the <strong>font-family</strong> property to the <strong>body</strong> tag. You won't actually see the <strong>body</strong> tag on screen but CodePen kindly sets us up a standard HTML page for us that looks something like this:
 
 	<!DOCTYPE html>
 	<html lang="en">
@@ -96,9 +96,9 @@ The next rule now cannot contradict this and reset all of the bullet points. Thi
 
 As a general rule of thumb CSS rules that are declared later in the style sheet will override those declared earlier and more specific rules will override less specific rules.
 
-This might seem counter intuitive at first but it really is a very effective ways to set document wide styles and then apply more specific, targeted styles whilst that retain a consistent look and feel. 
+This might seem counter intuitive at first but it really is a very effective ways to set document wide styles and then apply more specific, targeted styles that retain a consistent look and feel. 
 
-The easiest way to get your head around this way of working is to get your hands dirty and try it out for yourself. Feel free click the 'edit on codepen' links on the examples to experiment with your own code.
+The easiest way to get your head around this way of working is to get your hands dirty and try it out for yourself. Feel free click the 'edit on CodePen' links on the examples to experiment with your own code.
 
 ### Multiple items per rule 
 
