@@ -2,7 +2,7 @@
 layout: post
 title: Coding for designers part 4
 description: A description of your post
-pen: <img src="/images/posts/coding-club-4/CSS.png" alt="Cansei de Ser Sexy."><p>Lets add a touch of style with CSS. Unfortunately it has nothing to do with <a href="http://en.wikipedia.org/wiki/CSS_(band)">this band.</a></p>
+pen: <img src="/images/posts/coding-club-4/CSS.png" alt="Cansei de Ser Sexy."><p>Let’s add a touch of style with CSS. Unfortunately it has nothing to do with <a href="http://en.wikipedia.org/wiki/CSS_(band)">this band.</a></p>
 tags: [multiple,tags]
 published: true
 ---
@@ -105,7 +105,6 @@ The easiest way to get your head around this way of working is to get your hands
 A nice thing to know is that you can apply multiple property value pairs in a single CSS rule. In the example below I have just one CSS rule but I use it to apply a font-family, font-size and color to every bit of text on the page.
 
 <p data-height="268" data-theme-id="4772" data-slug-hash="3b5e6295b1a86a2d36df2295db8e62b8" data-default-tab="css" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/3b5e6295b1a86a2d36df2295db8e62b8/'>Multiple items per rule</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//codepen.io/assets/embed/ei.js"></script>
 
 Now that we're starting to get to grips with how CSS can influence the look of our web pages next time around we'll dive into the many fascinating ways that we can apply colour.
 
