@@ -11,7 +11,7 @@ Remember that just like in InDesign, every element on a web page is contained wi
 
 To take this a step further, each element has a 'display property' that determines how its containing box will sit in relation to the other elements on the page.
 
-There are a few different [display properties](https://developer.mozilla.org/en-US/docs/Web/CSS/display) but the two most important for are called **inline** and **block**.
+There are a few different [display properties](https://developer.mozilla.org/en-US/docs/Web/CSS/display) but the two most important ones are called **inline** and **block**.
 
 ### Inline elements 
 
@@ -39,7 +39,7 @@ Some examples of elements that are block by default are
 
 ### Say what?
 
-I've cheated a little bit here and added a red border around every element in this simple example just to show how they sit together.
+I’ve cheated a little bit here and added a red border around every element in this simple example just to show how they sit together.
 
 <p data-height="464" data-theme-id="4773" data-slug-hash="iJHfr" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/iJHfr/'>Inline vs Block elements border</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
@@ -79,82 +79,36 @@ Here’s a diagram that shows how the box model is put together:
 
 **Padding** pushes the border away from your content. It behaves in exactly the same way as *inset spacing* in InDesign.
 
-**Content** represents the actual size of the element, be it some text, an image or whatever else.
+**Content** represents the actual size of the element, be it some text or an image or whatever else.
 
-It is possible to set a different amount of padding, border-width and margin for each side individually. You can also set an individual width colour and style for each border edge.
+It is possible to set a different amount of padding, border-width and margin for each side individually. You can also set an individual width, colour and style for each of the border’s edges.
 
 ### So what?
 
-The box model is used to calculate the space that will be taken up in a layout by each element. We do this by adding their margin, border and padding to the width or height values.
+The box model is useful because we can use it to calculate the space that will be taken up within a layout by each element. We do this by adding their margin, border and padding to the width or height values.
 
 For instance the space needed for a 300px wide <code>div</code> with 10px margin, 10px border and 10px padding can be worked out like this:
 
 	margin left (10px) + border left (10x) + padding left (10px) + width (300px) + padding right (10px) + border right (10px) + margin right (10px) = 360px
 
-This means that if we do in fact want this element to fit into a 300px wide space, such as a sidebar for instance, we'd need to set its actual width to be 240px to account for the space needed for the margin, border and padding.
+This means that if we want this element to fit into a 300px wide column, such as a sidebar for instance, we'd need to set its actual width to be 240px to account for the space needed for the margin, border and padding.
 
 Working that out every time can be a bit of a headache. But thankfully there is a CSS property that makes this a bit easier. By setting the property <code>box-sizing</code> to <code>border-box</code> the border and padding will move inside the declared width of our element rather than being added it it.
 
-Be warned, you'll need to add <code>-moz-</code> and <code>-webkit-</code> vendor prefixes for older versions of Safari and Firefox and this won't work at all for versions of Internet Explorer before version 8. The CSS would look something like this: 
+Be warned, you'll need to add <code>-moz-</code> and <code>-webkit-</code> vendor prefixes for older versions of Safari and Firefox and this won't work at all for versions of Internet Explorer before version 8. The complete CSS would look something like this: 
 
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 
-And the updated equation will now read:	
+And the updated equation would then read:	
 
 	margin left (10px) - border left (10x) - padding left (10px) + width (300px) - padding right (10px) - border right (10px) + margin right (10px) = 320px
 
-Notice that the margin value is still added to the total width. In the example below I've set up three <code>div</code>s. The first has no border or padding set. The second has 10px border and 10px padding and the third has the same border and padding but with <code>box-sizing: border-box</code> turned on. Check out how the middle box is way fatter and breaks out of the column.
+Notice that the margin value is still added to the total width. 
+
+In the example below I've set up three <code>div</code>s. The first has no border or padding set. The second has 10px border and 10px padding and the third has the same border and padding but with <code>box-sizing: border-box</code> turned on. Check out how the middle box is way fatter and breaks out of the column.
 
 <p data-height="450" data-theme-id="4773" data-slug-hash="zhHIf" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/zhHIf/'>zhHIf</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
-Great! Now that we understand display properties and the box model, next time around we can look at how to actually position elements of the page to create a layout.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Great! Now that we understand display properties and the box model, next time around we can look at how to actually position elements on the page to create a layout.
