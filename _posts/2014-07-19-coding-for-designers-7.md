@@ -7,21 +7,15 @@ tags: [multiple,tags]
 published: true
 ---
 
-Last time we looked at two important concepts in CSS layout, display type and the box model. 
+Last time we looked at two important concepts in CSS layout. Display type and the box model. 
 
-<!-- Now we're going to move on and look at how to actually position elements on the page in order to create a layout. -->
-
-<!-- Using that knowledge we have an idea where each element should appear on the page based on the order in which they appear in the HTML. -->
-
-We'll now use the CSS position property to move elements around the page in order it create more engaging layouts.
-
-<!-- Keep in mind that we will be moving elements relative to where they 'should' -->
+We'll now use the <strong>position</strong> property to move elements around the page in order it create more engaging layouts.
 
 ### Position
 
 There are four main values that can be applied to the position property: <code>static</code>, <code>relative</code>, <code>absolute</code> and <code>fixed</code>.
 
-Once you have declared a position, property four more properties come into play: <code>top</code>, <code>bottom</code>, <code>left</code> and <code>right</code>. By declaring a distance value in one of these you can nudge the element around the page. 
+Once you have declared a position property four more properties come into play. They are <code>top</code>, <code>bottom</code>, <code>left</code> and <code>right</code>. By declaring a length value in one of these you can nudge the element around the page. It might sound counter intuitive but if you declare a value for <code>top</code> your element will be pushed down from the top, if you declare a value for <code>left</code> it will be push to the right from the left and so on.
 
 For instance this CSS rule would push all images on the page down 50px from their default position:
 
@@ -36,7 +30,7 @@ In the following four examples I'll try each of the four position property value
 
 <p data-height="220" data-theme-id="4772" data-slug-hash="gvkpc" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/gvkpc/'>Position Static example</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
-Here I've set the images position to be static. Static is the default position for all elements so declaring it actually has no effect. Top and left also have no effect here because static elements cannot be nudged in this way.
+Here I've set the image’s position to be static. Static is the default position for all elements so declaring it actually has no effect. Top and left also have no effect here because static elements cannot be nudged in this way.
 
 The net result in the image rests exactly where it would do normally.
 
@@ -46,7 +40,7 @@ The net result in the image rests exactly where it would do normally.
 
 Now things are getting a bit more interesting. Once a relative position has been declared the <code>top</code> and <code>left</code> properties will nudge the element from its default position. You can see above that the image has moved 50px down and 50px to the right from its default position within the paragraph.
 
-Notice also that the paragraph itself is unchanged. It still takes up the full height as if the image had not moved and there is the same space remaining in the flow of the words.
+Notice also that the paragraph itself is unchanged. It still takes up the full height as if the image had not moved and there is the same space remaining between the words.
 
 ### Absolute
 
@@ -64,7 +58,7 @@ Notice now that the paragraph behaves as if it no longer contains the image. It 
 
 <p data-height="220" data-theme-id="4772" data-slug-hash="JnFIG" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/JnFIG/'>Position Fixed example</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
-An element with a fixed position behaves in a very similar way to an absolutely positioned element except that instead of being placed relative to a parent tag it is positioned relative to the browser 'viewport'. The viewport is the size of browser window that is displaying the page, not the page itself.
+An element with a fixed position behaves in a very similar way to an absolutely positioned element except that instead of being placed relative to a parent tag it is positioned relative to the browser <strong>viewport</strong>. The viewport is the size of browser window that is displaying the page, not the page itself.
 
 <svg x="0px" y="0px" width="500px" height="400px" viewBox="0 0 500 400"><style type="text/css"> .st0{fill:#BDCCD4;} .st1{fill:#3FA9F5;} .st2{fill:none;stroke:#009245;stroke-width:9;stroke-miterlimit:10;} .st3{font-family:'Arial';} .st4{font-size:2em;}</style><rect x="50" y="40" class="st0" width="180" height="320"/><rect x="60" y="50" class="st1" width="160" height="30"/><rect x="60" y="95" class="st1" width="160" height="30"/><rect x="60" y="95" class="st1" width="160" height="30"/><rect x="60" y="140" class="st1" width="160" height="30"/><rect x="60" y="140" class="st1" width="160" height="30"/><rect x="60" y="185" class="st1" width="160" height="30"/><rect x="60" y="185" class="st1" width="160" height="30"/><rect x="60" y="230" class="st1" width="160" height="30"/><rect x="60" y="275" class="st1" width="160" height="30"/><rect x="60" y="320" class="st1" width="160" height="30"/><rect x="40" y="110" class="st2" width="200" height="160"/><text x="316" y="75" class="st3 st4">Webpage</text><text x="316" y="166" class="st3 st4">Viewport</text><polygon points="314,161 270,161 270,150.5 248.4,163 270,175.5 270,166 314,166 "/><polygon points="314,70 260,70 260,59.5 238.4,72 260,84.5 260,75 314,75 "/></svg>
 
