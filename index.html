@@ -4,11 +4,11 @@ title: CREDIT DESIGN
 ---
 
 <section>
-	<ol>
+	<ol class="paginator">
 	{% for post in paginator.posts %}
 		
 		<li>
-			<ul>
+			<ul class="paginator">
 				<li><time>{{ post.date | date: "%B %e, %Y" }}</time></li>
 				<li>
 					<h2>
