@@ -3,3 +3,4 @@ pygments: true
 permalink: pretty
 paginate: 3
 exclude: [node_modules, gruntfile.js, config.rb, package.json, sass]
+baseurl: "/"
