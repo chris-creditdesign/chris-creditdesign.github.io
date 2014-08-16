@@ -26,7 +26,7 @@ You can also find me on  [twitter](https://twitter.com/creditdesign), [github](h
 	*	Design Intern
 	*	*Dazed&Confused*
 *	**2002 – 2003**
-	*	BA (Hons) Graphic Media Design.
+	*	BA (Hons) Graphic Media Design
 	*	*London College of Communication*
 *	**2000 – 2002**
 	*	HND Graphic Design
