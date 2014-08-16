@@ -21,8 +21,8 @@ title: CREDIT DESIGN PROJECTS
   </div>
   <div class="child">
   	<a href="http://www.nature.com/news/bibliometrics-global-gender-disparities-in-science-1.14321#/gender">
-    	<img src="{{ site.baseurl }}images/projects/gender-barchart.png" alt="Global gender disparities in science<" />
-    	<p>Global gender disparities in science</p>
+    	<img src="{{ site.baseurl }}images/projects/gender-barchart.png" alt="Gender, output, collaboration and citation" />
+    	<p>Gender, output, collaboration and citation</p>
     </a>
   </div>
 </div>
