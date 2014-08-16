@@ -57,7 +57,7 @@ title: CREDIT DESIGN PROJECTS
   </div>
 </div>
 
-### Videos
+### Animations
 
 <div class="parent-video">
 	<div class="child-video">
