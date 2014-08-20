@@ -3,7 +3,6 @@ layout: about
 title: CREDIT DESIGN PROJECTS
 ---
 
-
 ### Interactive graphics
 
 <div class="parent">
@@ -60,16 +59,20 @@ title: CREDIT DESIGN PROJECTS
 ### Animations
 
 <div class="parent-video">
+  <div class="child-video">
+    <iframe width="640" height="360" src="//www.youtube.com/embed/kwX7M9ydfRw" frameborder="0" allowfullscreen></iframe>
+    <p>Narrated by Ewen Callaway. Directed by Charlotte Stoddart.</p>
+  </div>
 	<div class="child-video">
 		<iframe width="640" height="360" src="//www.youtube.com/embed/6hBSUbiqsI0" frameborder="0" allowfullscreen></iframe>
-		<p>Adapted from illustrations by Carl De Torres</p>
+		<p>Adapted from illustrations by Carl De Torres.</p>
 	</div>
 	<div class="child-video">
 		<iframe width="640" height="360" src="//www.youtube.com/embed/z8iEogscUl8" frameborder="0" allowfullscreen></iframe>
-		<p>Animated segment starting at <a href="http://youtu.be/z8iEogscUl8?t=30s">0:30</a></p>
+		<p>Animated segment starting at <a href="http://youtu.be/z8iEogscUl8?t=30s">0:30</a>.</p>
 	</div>
 	<div class="child-video">
 		<iframe width="640" height="360" src="//www.youtube.com/embed/fKkzqk3RMLc" frameborder="0" allowfullscreen></iframe>
-		<p>Animated segments starting at <a href="http://youtu.be/fKkzqk3RMLc?t=3m22s">3:22</a> and <a href="http://youtu.be/fKkzqk3RMLc?t=5m12s">5:12</a></p>
+		<p>Animated segments starting at <a href="http://youtu.be/fKkzqk3RMLc?t=3m22s">3:22</a> and <a href="http://youtu.be/fKkzqk3RMLc?t=5m12s">5:12</a>.</p>
 	</div>
 </div>
