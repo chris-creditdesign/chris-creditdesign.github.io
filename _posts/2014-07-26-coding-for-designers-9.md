@@ -33,7 +33,7 @@ Imagine now that you have been gifted a futuristic robot that unfortunately has 
 
 But wait a minute - those instructions are hard enough for a human to follow let alone a robot with no existing perception of the problem. 
 
-We are going to need to break things down a bit for our robot. There are many complex hand positions involved in tying a knot that we'll need to explain. We'll need to specify how big should the loop should be how tight do we want the knot. What if the robot's shoe has come off? We'll need to tell it to find the shoe and put it back on. Oh and don't forget to tell your robot to sit down first so that it doesn't fall over.
+We are going to need to break things down a bit for our robot. There are many complex hand positions involved in tying a knot that we'll need to explain. We'll need to specify how big should the loop should be and how tight do we want the knot. What if the robot's shoe has come off? We'll need to tell it to find the shoe and put it back on. Oh and don't forget to tell your robot to sit down first so that it doesn't fall over.
 
 If the instructions don't make sense or an action can't be performed the robot will simply stop and yelp **"ERROR"** or worse still, carry out the instructions incorrectly without realising it is doing wrong.
 
