@@ -10,7 +10,7 @@ published: true
 
 <img alt="A robot tying its shoelaces" src="{{ site.baseurl }}images/posts/coding-club-9/robot-shoelaces-5.png" />
 
-Javascript is a programming language - but don't let that scare you. It was designed with the primary purpose of making webpages more exciting but can be used for a zillion other things (even [robots](http://nodebots.io/)!) and is one of the [most popular programming languages in use today](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html).
+Javascript is a programming language - but don't let that scare you. It was designed with the primary purpose of making webpages more exciting but can be used for a zillion other things (even controlling [robots](http://nodebots.io/)!) and is one of the [most popular programming languages in use today](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html).
 
 Javascript gives us something that plain old HTML and CSS don't, the ability to ask questions and then give instructions based on the answers we get back.
 
@@ -31,11 +31,13 @@ Imagine now that you have been gifted a futuristic robot that unfortunately has 
 3.	Make the left lace into a loop and push it through the hole that has just been made.
 4.	Pull both loops so that the knot is tight.
 
-But wait a minute - those instructions are hard enough for a human to follow let alone a robot with no existing perception of the problem. There are many complex hand positions involved in tying a knot that we'll need to explain. How big should the loop be? And how tight do we want the knot? What if the robot's shoe has come off? Oh and don't forget to tell your robot to sit down first in case it falls over.
+But wait a minute - those instructions are hard enough for a human to follow let alone a robot with no existing perception of the problem. 
 
-If the instructions don't make sense or an action can't be performed the robot will simply stop and yelp **"ERROR"** or worse still carry out the instructions incorrectly without realising it is doing wrong.
+Where going to need to break things down a bit for our robot. There are many complex hand positions involved in tying a knot that we'll need to explain. We'll need to specify how big should the loop should be how tight do we want the knot. What if the robot's shoe has come off? We'll need to tell it to find the shoe and put it back on. Oh and don't forget to tell your robot to sit down first so that it doesn't fall over.
 
-Eventually though, you will come up with a set of foolproof instructions. You'll now save these instructions inside your robot's brain in a file called `tieLaces` so that the next time its laces are undone you can simply say, in robot speak:
+If the instructions don't make sense or an action can't be performed the robot will simply stop and yelp **"ERROR"** or worse still, carry out the instructions incorrectly without realising it is doing wrong.
+
+Eventually though you will come up with a set of foolproof instructions. You'll now save these instructions inside your robot's brain in a file called `tieLaces` so that the next time its laces are undone you can simply say, in robot speak:
 
 	ROBOT.tieLaces();
 

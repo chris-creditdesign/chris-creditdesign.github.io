@@ -57,18 +57,18 @@ This might seem like overkill now but separating out your code in this way is a 
 
 Imagine that you are in a bar and you you decide to be very nice and buy everyone there a drink. How would you go about it? Perhaps you make a bold announcement, let everyone stampede to the bar and you then pick up the tab at the end. Or else you purchase a large tray of drinks and walk around the bar handing them out as you go.
 
-However if a computer was in that situation it would need some logic to help it spread the cheer. It would probably need two bits of information. Firstly the number of people in the bar. And secondly how many drinks it has bought. Then it would go through a process. If the number of people in the bar is greater than the number of drinks bought it will buy someone a drink and check the numbers again. It would keep on doing this until the two numbers are equal at which point it will deduce that everyone has a drink and stop buying drinks. (Obviously we're assuming that everyone is being honest and not accepting a second drink from the computer.)
+However if a computer was in that situation it would need some logic to help it spread the cheer. It would probably need two bits of information. Firstly the number of people in the bar. And secondly how many drinks it has bought. Then it would go through a process. If the number of people in the bar is greater than the number of drinks bought, it will buy someone a drink and check the numbers again. It would keep on doing this until the two numbers are equal at which point it will deduce that everyone has a drink and stop buying drinks. (Obviously we're assuming that everyone is being honest and not accepting a second drink from the computer.)
 
 Let's see if we can code that up.
 
 ### Action stations!
 
-Set up two new variables in your javascript code. One for the number of people in the bar and another for the numbers of drinks bought so far. I'm assuming it's a quiet night so there are only five people around, you can have as many people as you.
+Set up two new variables in your javascript code. One for the number of people in the bar and another for the number of drinks bought so far. I'm assuming it's a quiet night so there are only five people around, you can have as many people as you like.
 
 	var peopleInBar = 5;
 	var drinksBought = 0;
 
-Now we need to set up some logic for the computer to check the two variables and then act accordingly. To do this will use a piece of javascript called an [If statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) that look something like this:
+Now we need to set up some logic for the computer to check the two variables and then act accordingly. To do this will use a piece of javascript called an [If statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) that looks something like this:
 
 	if ( true ) {
 		doSomething();
