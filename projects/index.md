@@ -7,6 +7,12 @@ title: CREDIT DESIGN PROJECTS
 
 <div class="parent">
   <div class="child">
+    <a href="http://www.nature.com/news/the-top-100-papers-1.16224#/interactive">
+    	<img src="{{ site.baseurl }}images/projects/top100.png" alt="Why scholars use social media" />
+    	<p>The top 100 papers</p>
+    </a>
+  </div>
+  <div class="child">
     <a href="http://www.nature.com/news/online-collaboration-scientists-and-the-social-network-1.15711">
     	<img src="{{ site.baseurl }}images/projects/social-networks.png" alt="Why scholars use social media" />
     	<p>Why scholars use social media</p>
@@ -59,6 +65,10 @@ title: CREDIT DESIGN PROJECTS
 ### Animations
 
 <div class="parent-video">
+  <div class="child-video">
+    <iframe width="640" height="360" src="//www.youtube.com/embed/gW7a1PB3S-I" frameborder="0" allowfullscreen></iframe>
+    <p>Narrated by Richard Van Noorden. Adapted from infographic by Wesley Fernandes. Illustration and 100 animation by Kyle Bean. Sound editing by Noah Baker.</p>
+  </div>
   <div class="child-video">
     <iframe width="640" height="360" src="//www.youtube.com/embed/kwX7M9ydfRw" frameborder="0" allowfullscreen></iframe>
     <p>Narrated by Ewen Callaway. Directed by Charlotte Stoddart.</p>
