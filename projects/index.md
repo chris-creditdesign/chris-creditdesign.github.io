@@ -7,6 +7,12 @@ title: CREDIT DESIGN PROJECTS
 
 <div class="parent">
   <div class="child">
+    <a href="http://www.nature.com/news/indirect-costs-keeping-the-lights-on-1.16376#/interactive">
+      <img src="{{ site.baseurl }}images/projects/indirect-costs.png" alt="Indirect costs: Keeping the lights on" />
+      <p>Indirect costs: Keeping the lights on</p>
+    </a>
+  </div>
+  <div class="child">
     <a href="http://www.nature.com/news/the-top-100-papers-1.16224#/interactive">
     	<img src="{{ site.baseurl }}images/projects/top100.png" alt="Why scholars use social media" />
     	<p>The top 100 papers</p>
