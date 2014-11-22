@@ -1,5 +1,5 @@
 markdown: rdiscount
-pygments: true
+highlighter: pygments
 permalink: pretty
 paginate: 3
 exclude: [node_modules, gruntfile.js, config.rb, package.json, sass]
