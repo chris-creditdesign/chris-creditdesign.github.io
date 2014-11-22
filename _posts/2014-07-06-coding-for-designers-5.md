@@ -13,7 +13,7 @@ Welcome to the wonderful world of colour in CSS. A topic so juicy it deserves a 
 
 To get us started it's good to know that all browsers have a whole bunch of colour keywords built in. 'Tomato' is one such keyword that you might have noticed in the last blog post. Using one of these keywords is probably the quickest and easiest way to get some colour into your design. Here are some examples:
 
-<p data-height="200" data-theme-id="4773" data-slug-hash="ygone" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/ygone/'>Colour keywords</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="200" data-theme-id="4773" data-slug-hash="ebdc3bad6289fc97b6394fb068010f40" data-default-tab="result" data-user="chris-creditdesign" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/ebdc3bad6289fc97b6394fb068010f40/'>Colour keywords</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 And for reference, [here's the full list](http://www.w3.org/wiki/CSS/Properties/color/keywords) of colours available. You'll see that some of these have quite obscure names and some of the names names are downright hilarious. Yes 'peachpuff' I'm looking at you.
 
@@ -66,19 +66,19 @@ Two Hexadecimal digits together can represent 256 different levels of colour. Th
 
 256 x 256 x 256 gives us 16,777,216 possible colour combinations. Experiment with the sliders below to get a feel for how the different colours work together.
 
-<p data-height="300" data-theme-id="4774" data-slug-hash="lqHGp" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/lqHGp/'>Hex colours</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="300" data-theme-id="4774" data-slug-hash="49e2f66c9a5836960920962d41a57885" data-default-tab="result" data-user="chris-creditdesign" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/49e2f66c9a5836960920962d41a57885/'>Hex colours</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 ### RGB
 
 Hex numbers are cool and everything but luckily there’s an alternative way to declare RGB colours that’s a little bit easier to read. We can replace the **#** with <code>rgb();</code> and simply put three normal numbers between 0 and 255 inside separated by commas. See if you can use the RGB sliders below to recreate the same colour as the Hex sliders above.
 
-<p data-height="300" data-theme-id="4774" data-slug-hash="lHydC" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/lHydC/'>RGB colours</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="300" data-theme-id="4774" data-slug-hash="e02224bc497861bcc5c0db1400a4deb6" data-default-tab="result" data-user="chris-creditdesign" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/e02224bc497861bcc5c0db1400a4deb6/'>RGB colours</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 ### RGBa
 
 The really exciting bit is that this syntax can be extended to <code>rgba();</code>. The extra 'a' stands for 'alpha' and this allows us to add a fourth number that controls the transparency of our colours. This number can range from 1 for fully opaque to 0 for fully transparent. Go on have a go!
 
-<p data-height="300" data-theme-id="4774" data-slug-hash="zGyhn" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/zGyhn/'>RGBA colours</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="300" data-theme-id="4774" data-slug-hash="05c31d77ca1b71844a5306d93f873223" data-default-tab="result" data-user="chris-creditdesign" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/05c31d77ca1b71844a5306d93f873223/'>RGBA colours</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 ### HSL
 
@@ -96,13 +96,13 @@ Lightness is also measured in percentages with 0&#37; being totally dark or blac
 
 The advantage is that it’s a bit easier to know what colour a HSL code represents or even to write our own codes from scratch. If we want a range of colours, perhaps with the same hue but with differing levels of darkness it's quite possible to get the results we want by tweaking the lightness value without needing to fire up Photoshop.
 
-<p data-height="300" data-theme-id="4774" data-slug-hash="biger" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/biger/'>HSL colours</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="300" data-theme-id="4774" data-slug-hash="ed622b8f158d4b0e612d73973dde0b27" data-default-tab="result" data-user="chris-creditdesign" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/ed622b8f158d4b0e612d73973dde0b27/'>HSL colours</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 ### HSLa
 
 We can also add an alpha value to get transparency. Can you guess what’s hiding behind that box?
 
-<p data-height="300" data-theme-id="4774" data-slug-hash="dInDH" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/dInDH/'>HSLA colours</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="300" data-theme-id="4774" data-slug-hash="e51da2e73187cbe759802bed3edf9604" data-default-tab="result" data-user="chris-creditdesign" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/e51da2e73187cbe759802bed3edf9604/'>HSLA colours</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 ### What's the catch?
 
