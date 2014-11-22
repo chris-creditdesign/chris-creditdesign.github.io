@@ -41,7 +41,7 @@ Some examples of elements that are block by default are
 
 I’ve cheated a little bit here and added a red border around every element in this simple example just to show how they sit together.
 
-<p data-height="464" data-theme-id="4773" data-slug-hash="iJHfr" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/iJHfr/'>Inline vs Block elements border</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="464" data-theme-id="4773" data-slug-hash="2c895ccb8330412b02f0967af65d1414" data-default-tab="result" data-user="chris-creditdesign" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/2c895ccb8330412b02f0967af65d1414/'>Inline vs Block elements border</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 Notice that the block elements - the blocks of text, the headline, paragraphs and the list - are all on their own lines and spread out to the right hand side of the screen.
 
@@ -109,6 +109,6 @@ Notice that the margin value is still added to the total width.
 
 In the example below I've set up three <code>div</code>s. The first has no border or padding set. The second has 10px border and 10px padding and the third has the same border and padding but with <code>box-sizing: border-box</code> turned on. Check out how the middle box is way fatter and breaks out of the column.
 
-<p data-height="450" data-theme-id="4773" data-slug-hash="zhHIf" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/zhHIf/'>zhHIf</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="450" data-theme-id="4773" data-slug-hash="f8d17892c3d2f0c571710d0dcc80979f" data-default-tab="result" data-user="chris-creditdesign" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/f8d17892c3d2f0c571710d0dcc80979f/'>zhHIf</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 Great! Now that we understand display properties and the box model, next time around we can look at how to actually position elements on the page to create a layout.

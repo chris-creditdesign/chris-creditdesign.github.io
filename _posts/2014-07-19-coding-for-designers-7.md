@@ -28,7 +28,7 @@ In the following four examples I'll try each of the four position property value
 
 ### Static
 
-<p data-height="220" data-theme-id="4772" data-slug-hash="gvkpc" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/gvkpc/'>Position Static example</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="220" data-theme-id="4772" data-slug-hash="7f2cc7818387e448f118d93ed0a86085" data-default-tab="result" data-user="chris-creditdesign" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/7f2cc7818387e448f118d93ed0a86085/'>Position Static example</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 Here I've set the image’s position to be static. Static is the default position for all elements so declaring it actually has no effect. Top and left also have no effect here because static elements cannot be nudged in this way.
 
@@ -36,7 +36,7 @@ The net result in the image rests exactly where it would do normally.
 
 ### Relative
 
-<p data-height="220" data-theme-id="4772" data-slug-hash="orveK" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/orveK/'>Position Relative example</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="220" data-theme-id="4772" data-slug-hash="a5bcf7d89564a88ad8f9c31716af3a3d" data-default-tab="result" data-user="chris-creditdesign" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/a5bcf7d89564a88ad8f9c31716af3a3d/'>Position Relative example</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 Now things are getting a bit more interesting. Once a relative position has been declared the <code>top</code> and <code>left</code> properties will nudge the element from its default position. You can see above that the image has moved 50px down and 50px to the right from its default position within the paragraph.
 
@@ -44,7 +44,7 @@ Notice also that the paragraph itself is unchanged. It still takes up the full h
 
 ### Absolute
 
-<p data-height="220" data-theme-id="4772" data-slug-hash="nEyGB" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/nEyGB/'>Position Absolute example</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="220" data-theme-id="4772" data-slug-hash="7c466ac9fd08d3aac2aaf35008e7af9b" data-default-tab="result" data-user="chris-creditdesign" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/7c466ac9fd08d3aac2aaf35008e7af9b/'>Position Absolute example</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 Instead of nudging an absolutely positioned element from its default position we can nudge it based on the position of a tag that it is nested inside - as long as the parent tag’s position property is set to something other than static.
 
@@ -56,7 +56,7 @@ Notice now that the paragraph behaves as if it no longer contains the image. It 
 
 ### Fixed
 
-<p data-height="220" data-theme-id="4772" data-slug-hash="JnFIG" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/JnFIG/'>Position Fixed example</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="220" data-theme-id="4772" data-slug-hash="1fdb8136d52ce33c1ec6eeea0a4284a2" data-default-tab="result" data-user="chris-creditdesign" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/1fdb8136d52ce33c1ec6eeea0a4284a2/'>Position Fixed example</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 An element with a fixed position behaves in a very similar way to an absolutely positioned element except that instead of being placed relative to a parent tag it is positioned relative to the browser <strong>viewport</strong>. The viewport is the size of browser window that is displaying the page, not the page itself.
 
@@ -67,19 +67,3 @@ The element will now act as if it is part of the browser rather than part of the
 I've added some extra junk text to the example above it illustrate this. Go ahead, give it a scroll.
 
 Next time around we'll use all our new found powers to jump in an start creating some CSS layouts.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

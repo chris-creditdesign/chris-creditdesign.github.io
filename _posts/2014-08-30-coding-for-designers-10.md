@@ -14,7 +14,7 @@ A javascript library is a set of pre-written javascript code that contains lots 
 
 ### Time to get busy
 
-<a href="http://codepen.io/pen/def?fork=pFkHz" target="_blank">Click on this link</a> to start a fresh codepen example. You should see some dummy text, a script tag to load in the D3 javastript file from the [d3js.org](http://d3js.org) website and one CSS rule.
+<a href="http://codepen.io/pen/def?fork=d8445a98883fa0564566dd88fce6614f" target="_blank">Click on this link</a> to start a fresh codepen example. You should see some dummy text, a script tag to load in the D3 javastript file from the [d3js.org](http://d3js.org) website and one CSS rule.
 
 Now we're ready to write our first bit of D3 javascript code. Wo hoo!
 

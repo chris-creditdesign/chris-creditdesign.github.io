@@ -15,7 +15,7 @@ Why five different ways to do the same thing? Well CSS layout is more of an art 
 
 ### Before we get started
 
-<p data-height="268" data-theme-id="4772" data-slug-hash="FwCkg" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/FwCkg/'>No Layout example</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="268" data-theme-id="4772" data-slug-hash="cfcc95b256a5508f95d10cd79173ad76" data-default-tab="result" data-user="chris-creditdesign" c class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/cfcc95b256a5508f95d10cd79173ad76/'>No Layout example</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 This is our basic page with no layout applied. I've taken the liberty of adding some base styles and colouring the <code>nav</code> red and the <code>div</code> blue. Each of the following examples will use this as the starting point.
 
@@ -36,13 +36,13 @@ Setting the <code>nav</code>’s position to absolute removes it from the flow o
 	  margin-left: 27%;
 	}
 
-<p data-height="359" data-theme-id="4772" data-slug-hash="CEtyf" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/CEtyf/'>Layout with margins example</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="359" data-theme-id="4772" data-slug-hash="8576767870a4c45e3b25dc359c2d2119" data-default-tab="result" data-user="chris-creditdesign" c class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/8576767870a4c45e3b25dc359c2d2119/'>Layout with margins example</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 ### Layout with floats
 
 Floats were invented to help web designers recreate the text wrap effect that print designers have had at their disposal for centuries. Click on the button in the example below to turn the floats on and off for the images to see the effect this has.
 
-<p data-height="413" data-theme-id="4772" data-slug-hash="Duwbo" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/Duwbo/'>Float example</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="413" data-theme-id="4772" data-slug-hash="b41a75fbccd88714d169b782cae4842c" data-default-tab="result" data-user="chris-creditdesign" c class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/b41a75fbccd88714d169b782cae4842c/'>Float example</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 The first image is set to <code>float: left;</code> so that it sits on the left hand side and the text wraps around it to the right. The second image is set to <code>float: right;</code> so that it sits on the right.
 
@@ -50,7 +50,7 @@ But it's not only images within text that can be floated. All elements can in fa
 
 In the example below I've created a basic layout using floats. The four pink boxes are floated left so they stack up next to each other to create columns. Note that he bottom orange box that follows must then be set to <code>clear: left;</code> so that it moves down past the floated elements and is not obscured. Once again click on the buttons to see the effect of turning off the <code>float</code> and <code>clear</code> properties.
 
-<p data-height="394" data-theme-id="4772" data-slug-hash="jqnAE" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/jqnAE/'>Floating elements example</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="394" data-theme-id="4772" data-slug-hash="6dc1d5fc7d329acd19e72748cbc4aee5" data-default-tab="result" data-user="chris-creditdesign" c class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/6dc1d5fc7d329acd19e72748cbc4aee5/'>Floating elements example</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 Back to our case study. Hopefully you’re one step ahead of me and are thinking about floating our <code>nav</code> and <code>div</code> next to each other to recreate the column layout. Top marks! 
 
@@ -67,7 +67,7 @@ Back to our case study. Hopefully you’re one step ahead of me and are thinking
 
 If we give the <code>nav</code> a width of 25%, the <code>div</code> to a width of 75% and float them both left we can recreate the column layout. Adding a <code>margin-left</code> of 2% to the <code>div</code> will add the gutter.
 
-<p data-height="359" data-theme-id="4772" data-slug-hash="cbaEG" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/cbaEG/'>Layout with floats example</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="359" data-theme-id="4772" data-slug-hash="f89493683f61113f510cec3813097f58" data-default-tab="result" data-user="chris-creditdesign" c class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/f89493683f61113f510cec3813097f58/'>Layout with floats example</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 ### Layout with a fixed nav bar
 
@@ -102,7 +102,7 @@ There just remains one tiny problem. Because we removed the <code>nav</code> fro
 
 Et voilà!
 
-<p data-height="359" data-theme-id="4772" data-slug-hash="GBaAs" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/GBaAs/'>Layout with fixed nav example</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="359" data-theme-id="4772" data-slug-hash="e4ab87eb6b4a312e8a7004307b1a8753" data-default-tab="result" data-user="chris-creditdesign" c class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/e4ab87eb6b4a312e8a7004307b1a8753/'>Layout with fixed nav example</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 ### Layout using inline-block
 
@@ -122,7 +122,7 @@ Another neat but perhaps less well know layout technique is to use the display t
 
 Once we have declared inline-block as a display type the <code>nav</code> and the <code>div</code> will be in effect treated as if they are text. As such they will both be sitting on the baseline, causing the <code>nav</code> to shoot to the bottom of the page. To fix this we can set them both to <code>vertical-algin: top;</code> unless of course that is the look you are going for.
 
-<p data-height="359" data-theme-id="4772" data-slug-hash="Hfdxc" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/Hfdxc/'>Inline-block layout example</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="359" data-theme-id="4772" data-slug-hash="2ce1e00ff7f453fb23e887f387b44a76" data-default-tab="result" data-user="chris-creditdesign" c class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/2ce1e00ff7f453fb23e887f387b44a76/'>Inline-block layout example</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 ### Layout using flexbox
 
@@ -152,7 +152,7 @@ Great but not so exciting you say? Well the real power of flexbox is in the ease
 
 Go ahead and have a play with the options below to see how these properties come into play.
 
-<p data-height="500" data-theme-id="4772" data-slug-hash="Ksvta" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/Ksvta/'>Flexbox layout example</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="500" data-theme-id="4772" data-slug-hash="ce0af25cb0d2d7b7b2bfacc5268c794a" data-default-tab="result" data-user="chris-creditdesign" c class='codepen'>See the Pen <a href='http://codepen.io/chris-creditdesign/pen/ce0af25cb0d2d7b7b2bfacc5268c794a/'>Flexbox layout example</a> by chris-creditdesign (<a href='http://codepen.io/chris-creditdesign'>@chris-creditdesign</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 This demo is just a taster of the [many other flexbox options](http://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 
