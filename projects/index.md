@@ -31,9 +31,9 @@ title: CREDIT DESIGN PROJECTS
     </a>
   </div>
   <div class="child">
-  	<a href="http://www.nature.com/news/365-days-nature-s-2013-quiz-1.14330">
-    	<img src="{{ site.baseurl }}images/projects/quiz-thumb.png" alt="Nature's 2013 quiz" />
-    	<p><em>Nature</em>'s 2013 quiz</p>
+  	<a href="http://www.nature.com/news/365-days-nature-s-2014-quiz-1.16555">
+    	<img src="{{ site.baseurl }}images/projects/quiz-thumb.png" alt="Nature's quiz" />
+    	<p><em>Nature</em>'s quiz</p>
     </a>
   </div>
   <div class="child">
