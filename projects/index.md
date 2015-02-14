@@ -7,6 +7,12 @@ title: CREDIT DESIGN PROJECTS
 
 <div class="parent">
   <div class="child">
+    <a href="http://www.nature.com/news/measles-by-the-numbers-a-race-to-eradication-1.16897">
+      <img src="{{ site.baseurl }}images/projects/measles.jpg" alt="INTERACTIVE: Measles mapped" />
+      <p>Measles by the numbers: A race to eradication</p>
+    </a>
+  </div>
+  <div class="child">
     <a href="http://www.nature.com/news/indirect-costs-keeping-the-lights-on-1.16376#/interactive">
       <img src="{{ site.baseurl }}images/projects/indirect-costs.png" alt="Indirect costs: Keeping the lights on" />
       <p>Indirect costs: Keeping the lights on</p>
